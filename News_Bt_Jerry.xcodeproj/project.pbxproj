@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4836F251C808BD400A3D554 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4836F241C808BD400A3D554 /* main.m */; };
+		C4836F281C808BD400A3D554 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4836F271C808BD400A3D554 /* AppDelegate.m */; };
+		C4836F2B1C808BD400A3D554 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4836F2A1C808BD400A3D554 /* ViewController.m */; };
+		C4836F2E1C808BD400A3D554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4836F2C1C808BD400A3D554 /* Main.storyboard */; };
+		C4836F301C808BD400A3D554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4836F2F1C808BD400A3D554 /* Assets.xcassets */; };
+		C4836F331C808BD400A3D554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4836F311C808BD400A3D554 /* LaunchScreen.storyboard */; };
+		C4836F3E1C808BD400A3D554 /* News_Bt_JerryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4836F3D1C808BD400A3D554 /* News_Bt_JerryTests.m */; };
+		C4836F491C808BD400A3D554 /* News_Bt_JerryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4836F481C808BD400A3D554 /* News_Bt_JerryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4836F3A1C808BD400A3D554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4836F181C808BD400A3D554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4836F1F1C808BD400A3D554;
+			remoteInfo = News_Bt_Jerry;
+		};
+		C4836F451C808BD400A3D554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4836F181C808BD400A3D554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4836F1F1C808BD400A3D554;
+			remoteInfo = News_Bt_Jerry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4836F201C808BD400A3D554 /* News_Bt_Jerry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News_Bt_Jerry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4836F241C808BD400A3D554 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4836F261C808BD400A3D554 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4836F271C808BD400A3D554 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4836F291C808BD400A3D554 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4836F2A1C808BD400A3D554 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4836F2D1C808BD400A3D554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4836F2F1C808BD400A3D554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4836F321C808BD400A3D554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4836F341C808BD400A3D554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4836F391C808BD400A3D554 /* News_Bt_JerryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = News_Bt_JerryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4836F3D1C808BD400A3D554 /* News_Bt_JerryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = News_Bt_JerryTests.m; sourceTree = "<group>"; };
+		C4836F3F1C808BD400A3D554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4836F441C808BD400A3D554 /* News_Bt_JerryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = News_Bt_JerryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4836F481C808BD400A3D554 /* News_Bt_JerryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = News_Bt_JerryUITests.m; sourceTree = "<group>"; };
+		C4836F4A1C808BD400A3D554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4836F1D1C808BD400A3D554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4836F361C808BD400A3D554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4836F411C808BD400A3D554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4836F171C808BD400A3D554 = {
+			isa = PBXGroup;
+			children = (
+				C4836F221C808BD400A3D554 /* News_Bt_Jerry */,
+				C4836F3C1C808BD400A3D554 /* News_Bt_JerryTests */,
+				C4836F471C808BD400A3D554 /* News_Bt_JerryUITests */,
+				C4836F211C808BD400A3D554 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4836F211C808BD400A3D554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4836F201C808BD400A3D554 /* News_Bt_Jerry.app */,
+				C4836F391C808BD400A3D554 /* News_Bt_JerryTests.xctest */,
+				C4836F441C808BD400A3D554 /* News_Bt_JerryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4836F221C808BD400A3D554 /* News_Bt_Jerry */ = {
+			isa = PBXGroup;
+			children = (
+				C4836F261C808BD400A3D554 /* AppDelegate.h */,
+				C4836F271C808BD400A3D554 /* AppDelegate.m */,
+				C4836F291C808BD400A3D554 /* ViewController.h */,
+				C4836F2A1C808BD400A3D554 /* ViewController.m */,
+				C4836F2C1C808BD400A3D554 /* Main.storyboard */,
+				C4836F2F1C808BD400A3D554 /* Assets.xcassets */,
+				C4836F311C808BD400A3D554 /* LaunchScreen.storyboard */,
+				C4836F341C808BD400A3D554 /* Info.plist */,
+				C4836F231C808BD400A3D554 /* Supporting Files */,
+			);
+			path = News_Bt_Jerry;
+			sourceTree = "<group>";
+		};
+		C4836F231C808BD400A3D554 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4836F241C808BD400A3D554 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4836F3C1C808BD400A3D554 /* News_Bt_JerryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4836F3D1C808BD400A3D554 /* News_Bt_JerryTests.m */,
+				C4836F3F1C808BD400A3D554 /* Info.plist */,
+			);
+			path = News_Bt_JerryTests;
+			sourceTree = "<group>";
+		};
+		C4836F471C808BD400A3D554 /* News_Bt_JerryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4836F481C808BD400A3D554 /* News_Bt_JerryUITests.m */,
+				C4836F4A1C808BD400A3D554 /* Info.plist */,
+			);
+			path = News_Bt_JerryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4836F1F1C808BD400A3D554 /* News_Bt_Jerry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4836F4D1C808BD400A3D554 /* Build configuration list for PBXNativeTarget "News_Bt_Jerry" */;
+			buildPhases = (
+				C4836F1C1C808BD400A3D554 /* Sources */,
+				C4836F1D1C808BD400A3D554 /* Frameworks */,
+				C4836F1E1C808BD400A3D554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = News_Bt_Jerry;
+			productName = News_Bt_Jerry;
+			productReference = C4836F201C808BD400A3D554 /* News_Bt_Jerry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4836F381C808BD400A3D554 /* News_Bt_JerryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4836F501C808BD400A3D554 /* Build configuration list for PBXNativeTarget "News_Bt_JerryTests" */;
+			buildPhases = (
+				C4836F351C808BD400A3D554 /* Sources */,
+				C4836F361C808BD400A3D554 /* Frameworks */,
+				C4836F371C808BD400A3D554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4836F3B1C808BD400A3D554 /* PBXTargetDependency */,
+			);
+			name = News_Bt_JerryTests;
+			productName = News_Bt_JerryTests;
+			productReference = C4836F391C808BD400A3D554 /* News_Bt_JerryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4836F431C808BD400A3D554 /* News_Bt_JerryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4836F531C808BD400A3D554 /* Build configuration list for PBXNativeTarget "News_Bt_JerryUITests" */;
+			buildPhases = (
+				C4836F401C808BD400A3D554 /* Sources */,
+				C4836F411C808BD400A3D554 /* Frameworks */,
+				C4836F421C808BD400A3D554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4836F461C808BD400A3D554 /* PBXTargetDependency */,
+			);
+			name = News_Bt_JerryUITests;
+			productName = News_Bt_JerryUITests;
+			productReference = C4836F441C808BD400A3D554 /* News_Bt_JerryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4836F181C808BD400A3D554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王潇";
+				TargetAttributes = {
+					C4836F1F1C808BD400A3D554 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B5SJ8JYP65;
+					};
+					C4836F381C808BD400A3D554 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B5SJ8JYP65;
+						TestTargetID = C4836F1F1C808BD400A3D554;
+					};
+					C4836F431C808BD400A3D554 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = B5SJ8JYP65;
+						TestTargetID = C4836F1F1C808BD400A3D554;
+					};
+				};
+			};
+			buildConfigurationList = C4836F1B1C808BD400A3D554 /* Build configuration list for PBXProject "News_Bt_Jerry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4836F171C808BD400A3D554;
+			productRefGroup = C4836F211C808BD400A3D554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4836F1F1C808BD400A3D554 /* News_Bt_Jerry */,
+				C4836F381C808BD400A3D554 /* News_Bt_JerryTests */,
+				C4836F431C808BD400A3D554 /* News_Bt_JerryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4836F1E1C808BD400A3D554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4836F331C808BD400A3D554 /* LaunchScreen.storyboard in Resources */,
+				C4836F301C808BD400A3D554 /* Assets.xcassets in Resources */,
+				C4836F2E1C808BD400A3D554 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4836F371C808BD400A3D554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4836F421C808BD400A3D554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4836F1C1C808BD400A3D554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4836F2B1C808BD400A3D554 /* ViewController.m in Sources */,
+				C4836F281C808BD400A3D554 /* AppDelegate.m in Sources */,
+				C4836F251C808BD400A3D554 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4836F351C808BD400A3D554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4836F3E1C808BD400A3D554 /* News_Bt_JerryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4836F401C808BD400A3D554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4836F491C808BD400A3D554 /* News_Bt_JerryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4836F3B1C808BD400A3D554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4836F1F1C808BD400A3D554 /* News_Bt_Jerry */;
+			targetProxy = C4836F3A1C808BD400A3D554 /* PBXContainerItemProxy */;
+		};
+		C4836F461C808BD400A3D554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4836F1F1C808BD400A3D554 /* News_Bt_Jerry */;
+			targetProxy = C4836F451C808BD400A3D554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4836F2C1C808BD400A3D554 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4836F2D1C808BD400A3D554 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4836F311C808BD400A3D554 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4836F321C808BD400A3D554 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4836F4B1C808BD400A3D554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4836F4C1C808BD400A3D554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4836F4E1C808BD400A3D554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = News_Bt_Jerry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.News-Bt-Jerry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4836F4F1C808BD400A3D554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = News_Bt_Jerry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.News-Bt-Jerry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4836F511C808BD400A3D554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = News_Bt_JerryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.News-Bt-JerryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/News_Bt_Jerry.app/News_Bt_Jerry";
+			};
+			name = Debug;
+		};
+		C4836F521C808BD400A3D554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = News_Bt_JerryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.News-Bt-JerryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/News_Bt_Jerry.app/News_Bt_Jerry";
+			};
+			name = Release;
+		};
+		C4836F541C808BD400A3D554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = News_Bt_JerryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.News-Bt-JerryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = News_Bt_Jerry;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C4836F551C808BD400A3D554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = News_Bt_JerryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jerry.News-Bt-JerryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = News_Bt_Jerry;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4836F1B1C808BD400A3D554 /* Build configuration list for PBXProject "News_Bt_Jerry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4836F4B1C808BD400A3D554 /* Debug */,
+				C4836F4C1C808BD400A3D554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4836F4D1C808BD400A3D554 /* Build configuration list for PBXNativeTarget "News_Bt_Jerry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4836F4E1C808BD400A3D554 /* Debug */,
+				C4836F4F1C808BD400A3D554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4836F501C808BD400A3D554 /* Build configuration list for PBXNativeTarget "News_Bt_JerryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4836F511C808BD400A3D554 /* Debug */,
+				C4836F521C808BD400A3D554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4836F531C808BD400A3D554 /* Build configuration list for PBXNativeTarget "News_Bt_JerryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4836F541C808BD400A3D554 /* Debug */,
+				C4836F551C808BD400A3D554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4836F181C808BD400A3D554 /* Project object */;
+}
