@@ -16,6 +16,7 @@
 		3009A42D1E939E6C006B8C7B /* JRDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A42C1E939E6C006B8C7B /* JRDemoViewController.swift */; };
 		3009A42F1E939E75006B8C7B /* JRPractiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A42E1E939E75006B8C7B /* JRPractiseViewController.swift */; };
 		3009A4311E939F14006B8C7B /* JRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4301E939F14006B8C7B /* JRBaseViewController.swift */; };
+		3009A4341E93A242006B8C7B /* JRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4331E93A242006B8C7B /* JRTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3009A42C1E939E6C006B8C7B /* JRDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRDemoViewController.swift; sourceTree = "<group>"; };
 		3009A42E1E939E75006B8C7B /* JRPractiseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRPractiseViewController.swift; sourceTree = "<group>"; };
 		3009A4301E939F14006B8C7B /* JRBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRBaseViewController.swift; sourceTree = "<group>"; };
+		3009A4331E93A242006B8C7B /* JRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				3009A4301E939F14006B8C7B /* JRBaseViewController.swift */,
 				3009A42A1E939E5A006B8C7B /* Demo */,
 				3009A42B1E939E5A006B8C7B /* Practise */,
+				3009A4321E93A17B006B8C7B /* BaseView */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -161,6 +164,14 @@
 				3009A42E1E939E75006B8C7B /* JRPractiseViewController.swift */,
 			);
 			path = Practise;
+			sourceTree = "<group>";
+		};
+		3009A4321E93A17B006B8C7B /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				3009A4331E93A242006B8C7B /* JRTableView.swift */,
+			);
+			path = BaseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +313,7 @@
 				3009A42D1E939E6C006B8C7B /* JRDemoViewController.swift in Sources */,
 				3009A42F1E939E75006B8C7B /* JRPractiseViewController.swift in Sources */,
 				3009A4311E939F14006B8C7B /* JRBaseViewController.swift in Sources */,
+				3009A4341E93A242006B8C7B /* JRTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
