@@ -24,7 +24,7 @@ extension JRPractiseViewController {
 	func setupUI() {
 		
 		let tableView = JRTableView(frame: view.bounds, style: .plain)
-		tableView.dataList = ["One", "Two", "Three", "Four"]
+		tableView.dataList = ["Layer", "Two", "Three", "Four"]
 		view.addSubview(tableView)
 		
 		weak var weakSelf = self
@@ -38,6 +38,10 @@ extension JRPractiseViewController {
 	func tableViewDidSelected(tableView: UITableView, indexPath: IndexPath) {
 		
 		print("didSelected Meyhond")
+		
+		let vc = JRLayerViewController()
+		vc.hidesBottomBarWhenPushed = true
+		navigationController?.pushViewController(vc, animated: true)
 	}
 	
 }
