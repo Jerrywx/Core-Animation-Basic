@@ -15,7 +15,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-		// Override point for customization after application launch.
+		
+		let demoNav = UINavigationController(rootViewController: JRDemoViewController())
+		let practise = UINavigationController(rootViewController: JRPractiseViewController())
+		
+		demoNav.title = "Demo"
+		practise.title = "Pract"
+		
+		let tabVC = UITabBarController()
+		tabVC.viewControllers = [practise, demoNav]
+		
+		window = UIWindow(frame: UIScreen.main.bounds)
+		window?.rootViewController = tabVC
+		window?.makeKeyAndVisible()
+		
 		return true
 	}
 

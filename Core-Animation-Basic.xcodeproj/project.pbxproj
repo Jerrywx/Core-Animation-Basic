@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3009A3FB1E93999B006B8C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A3FA1E93999B006B8C7B /* AppDelegate.swift */; };
-		3009A3FD1E93999B006B8C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A3FC1E93999B006B8C7B /* ViewController.swift */; };
 		3009A4001E93999B006B8C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3009A3FE1E93999B006B8C7B /* Main.storyboard */; };
 		3009A4021E93999B006B8C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3009A4011E93999B006B8C7B /* Assets.xcassets */; };
 		3009A4051E93999B006B8C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3009A4031E93999B006B8C7B /* LaunchScreen.storyboard */; };
 		3009A4101E93999B006B8C7B /* Core_Animation_BasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A40F1E93999B006B8C7B /* Core_Animation_BasicTests.swift */; };
 		3009A41B1E93999B006B8C7B /* Core_Animation_BasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A41A1E93999B006B8C7B /* Core_Animation_BasicUITests.swift */; };
+		3009A42D1E939E6C006B8C7B /* JRDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A42C1E939E6C006B8C7B /* JRDemoViewController.swift */; };
+		3009A42F1E939E75006B8C7B /* JRPractiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A42E1E939E75006B8C7B /* JRPractiseViewController.swift */; };
+		3009A4311E939F14006B8C7B /* JRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4301E939F14006B8C7B /* JRBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		3009A3F71E93999B006B8C7B /* Core-Animation-Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core-Animation-Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3009A3FA1E93999B006B8C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3009A3FC1E93999B006B8C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3009A3FF1E93999B006B8C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3009A4011E93999B006B8C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3009A4041E93999B006B8C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		3009A4161E93999B006B8C7B /* Core-Animation-BasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core-Animation-BasicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3009A41A1E93999B006B8C7B /* Core_Animation_BasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_Animation_BasicUITests.swift; sourceTree = "<group>"; };
 		3009A41C1E93999B006B8C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3009A42C1E939E6C006B8C7B /* JRDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRDemoViewController.swift; sourceTree = "<group>"; };
+		3009A42E1E939E75006B8C7B /* JRPractiseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRPractiseViewController.swift; sourceTree = "<group>"; };
+		3009A4301E939F14006B8C7B /* JRBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				3009A3FA1E93999B006B8C7B /* AppDelegate.swift */,
-				3009A3FC1E93999B006B8C7B /* ViewController.swift */,
-				3009A3FE1E93999B006B8C7B /* Main.storyboard */,
-				3009A4011E93999B006B8C7B /* Assets.xcassets */,
-				3009A4031E93999B006B8C7B /* LaunchScreen.storyboard */,
-				3009A4061E93999B006B8C7B /* Info.plist */,
+				3009A4291E939E5A006B8C7B /* Classes */,
+				3009A4281E939E05006B8C7B /* SupportFile */,
 			);
 			path = "Core-Animation-Basic";
 			sourceTree = "<group>";
@@ -123,6 +124,43 @@
 				3009A41C1E93999B006B8C7B /* Info.plist */,
 			);
 			path = "Core-Animation-BasicUITests";
+			sourceTree = "<group>";
+		};
+		3009A4281E939E05006B8C7B /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				3009A3FE1E93999B006B8C7B /* Main.storyboard */,
+				3009A4011E93999B006B8C7B /* Assets.xcassets */,
+				3009A4031E93999B006B8C7B /* LaunchScreen.storyboard */,
+				3009A4061E93999B006B8C7B /* Info.plist */,
+			);
+			name = SupportFile;
+			sourceTree = "<group>";
+		};
+		3009A4291E939E5A006B8C7B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3009A4301E939F14006B8C7B /* JRBaseViewController.swift */,
+				3009A42A1E939E5A006B8C7B /* Demo */,
+				3009A42B1E939E5A006B8C7B /* Practise */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3009A42A1E939E5A006B8C7B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3009A42C1E939E6C006B8C7B /* JRDemoViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		3009A42B1E939E5A006B8C7B /* Practise */ = {
+			isa = PBXGroup;
+			children = (
+				3009A42E1E939E75006B8C7B /* JRPractiseViewController.swift */,
+			);
+			path = Practise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3009A3FD1E93999B006B8C7B /* ViewController.swift in Sources */,
 				3009A3FB1E93999B006B8C7B /* AppDelegate.swift in Sources */,
+				3009A42D1E939E6C006B8C7B /* JRDemoViewController.swift in Sources */,
+				3009A42F1E939E75006B8C7B /* JRPractiseViewController.swift in Sources */,
+				3009A4311E939F14006B8C7B /* JRBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B5SJ8JYP65;
 				INFOPLIST_FILE = "Core-Animation-Basic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jerrywx.Core-Animation-Basic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B5SJ8JYP65;
 				INFOPLIST_FILE = "Core-Animation-Basic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jerrywx.Core-Animation-Basic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
