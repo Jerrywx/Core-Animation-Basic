@@ -16,10 +16,6 @@ class JRTableView: UITableView {
 	/// 数据源
 	var dataList:[String]? {
 		
-		willSet {
-			print(newValue ?? "error")
-		}
-		
 		didSet {
 			self.reloadData()
 		}

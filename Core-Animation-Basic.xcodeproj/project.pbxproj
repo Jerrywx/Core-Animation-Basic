@@ -18,6 +18,8 @@
 		3009A4311E939F14006B8C7B /* JRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4301E939F14006B8C7B /* JRBaseViewController.swift */; };
 		3009A4341E93A242006B8C7B /* JRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4331E93A242006B8C7B /* JRTableView.swift */; };
 		3009A4371E93E5A7006B8C7B /* JRLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4361E93E5A7006B8C7B /* JRLayerViewController.swift */; };
+		34B54E531E94C11E00BDE1E0 /* LayerContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B54E521E94C11E00BDE1E0 /* LayerContentViewController.swift */; };
+		34B54E571E94DF0400BDE1E0 /* MyLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B54E561E94DF0400BDE1E0 /* MyLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		3009A4301E939F14006B8C7B /* JRBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRBaseViewController.swift; sourceTree = "<group>"; };
 		3009A4331E93A242006B8C7B /* JRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRTableView.swift; sourceTree = "<group>"; };
 		3009A4361E93E5A7006B8C7B /* JRLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRLayerViewController.swift; sourceTree = "<group>"; };
+		34B54E521E94C11E00BDE1E0 /* LayerContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerContentViewController.swift; sourceTree = "<group>"; };
+		34B54E561E94DF0400BDE1E0 /* MyLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,9 +184,19 @@
 		3009A4351E93E593006B8C7B /* LayerPractise */ = {
 			isa = PBXGroup;
 			children = (
+				34B54E511E94C0E700BDE1E0 /* Providing a Layer’s Contents */,
 				3009A4361E93E5A7006B8C7B /* JRLayerViewController.swift */,
 			);
 			path = LayerPractise;
+			sourceTree = "<group>";
+		};
+		34B54E511E94C0E700BDE1E0 /* Providing a Layer’s Contents */ = {
+			isa = PBXGroup;
+			children = (
+				34B54E521E94C11E00BDE1E0 /* LayerContentViewController.swift */,
+				34B54E561E94DF0400BDE1E0 /* MyLayer.swift */,
+			);
+			name = "Providing a Layer’s Contents";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,7 +337,9 @@
 				3009A3FB1E93999B006B8C7B /* AppDelegate.swift in Sources */,
 				3009A42D1E939E6C006B8C7B /* JRDemoViewController.swift in Sources */,
 				3009A42F1E939E75006B8C7B /* JRPractiseViewController.swift in Sources */,
+				34B54E531E94C11E00BDE1E0 /* LayerContentViewController.swift in Sources */,
 				3009A4311E939F14006B8C7B /* JRBaseViewController.swift in Sources */,
+				34B54E571E94DF0400BDE1E0 /* MyLayer.swift in Sources */,
 				3009A4371E93E5A7006B8C7B /* JRLayerViewController.swift in Sources */,
 				3009A4341E93A242006B8C7B /* JRTableView.swift in Sources */,
 			);
