@@ -26,7 +26,8 @@ extension JRPractiseViewController {
 		let tableView = JRTableView(frame: view.bounds, style: .plain)
 		tableView.dataList = ["Layer Sample",
 		                      "Providing a Layer’s Contents",
-		                      "Three",
+		                      "Adjusting a Layer’s Visual Style and Appearance",
+		                      "Animating Simple Changes to a Layer’s Properties",
 		                      "Four"]
 		view.addSubview(tableView)
 		
