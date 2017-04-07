@@ -19,6 +19,9 @@
 		3009A4341E93A242006B8C7B /* JRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4331E93A242006B8C7B /* JRTableView.swift */; };
 		3009A4371E93E5A7006B8C7B /* JRLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4361E93E5A7006B8C7B /* JRLayerViewController.swift */; };
 		3458DBA51E972C92004C1E38 /* JRQuartzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBA41E972C92004C1E38 /* JRQuartzViewController.swift */; };
+		3458DBA91E973F80004C1E38 /* JRContextsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBA81E973F80004C1E38 /* JRContextsViewController.swift */; };
+		3458DBAB1E9741D8004C1E38 /* NormalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBAA1E9741D8004C1E38 /* NormalView.swift */; };
+		3458DBAD1E9755CE004C1E38 /* BitMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBAC1E9755CE004C1E38 /* BitMapView.swift */; };
 		34B54E531E94C11E00BDE1E0 /* LayerContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B54E521E94C11E00BDE1E0 /* LayerContentViewController.swift */; };
 		34B54E571E94DF0400BDE1E0 /* MyLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B54E561E94DF0400BDE1E0 /* MyLayer.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +62,9 @@
 		3009A4331E93A242006B8C7B /* JRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRTableView.swift; sourceTree = "<group>"; };
 		3009A4361E93E5A7006B8C7B /* JRLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRLayerViewController.swift; sourceTree = "<group>"; };
 		3458DBA41E972C92004C1E38 /* JRQuartzViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRQuartzViewController.swift; sourceTree = "<group>"; };
+		3458DBA81E973F80004C1E38 /* JRContextsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRContextsViewController.swift; sourceTree = "<group>"; };
+		3458DBAA1E9741D8004C1E38 /* NormalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalView.swift; sourceTree = "<group>"; };
+		3458DBAC1E9755CE004C1E38 /* BitMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitMapView.swift; sourceTree = "<group>"; };
 		34B54E521E94C11E00BDE1E0 /* LayerContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerContentViewController.swift; sourceTree = "<group>"; };
 		34B54E561E94DF0400BDE1E0 /* MyLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -197,8 +203,19 @@
 			isa = PBXGroup;
 			children = (
 				3458DBA41E972C92004C1E38 /* JRQuartzViewController.swift */,
+				3458DBA71E973F63004C1E38 /* ContextsController */,
 			);
 			path = "Quartz 2D";
+			sourceTree = "<group>";
+		};
+		3458DBA71E973F63004C1E38 /* ContextsController */ = {
+			isa = PBXGroup;
+			children = (
+				3458DBA81E973F80004C1E38 /* JRContextsViewController.swift */,
+				3458DBAA1E9741D8004C1E38 /* NormalView.swift */,
+				3458DBAC1E9755CE004C1E38 /* BitMapView.swift */,
+			);
+			path = ContextsController;
 			sourceTree = "<group>";
 		};
 		34B54E511E94C0E700BDE1E0 /* Providing a Layer’s Contents */ = {
@@ -345,7 +362,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3458DBAB1E9741D8004C1E38 /* NormalView.swift in Sources */,
+				3458DBA91E973F80004C1E38 /* JRContextsViewController.swift in Sources */,
 				3009A3FB1E93999B006B8C7B /* AppDelegate.swift in Sources */,
+				3458DBAD1E9755CE004C1E38 /* BitMapView.swift in Sources */,
 				3458DBA51E972C92004C1E38 /* JRQuartzViewController.swift in Sources */,
 				3009A42D1E939E6C006B8C7B /* JRDemoViewController.swift in Sources */,
 				3009A42F1E939E75006B8C7B /* JRPractiseViewController.swift in Sources */,
@@ -509,7 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B5SJ8JYP65;
 				INFOPLIST_FILE = "Core-Animation-Basic/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jerrywx.Core-Animation-Basic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,7 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B5SJ8JYP65;
 				INFOPLIST_FILE = "Core-Animation-Basic/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jerrywx.Core-Animation-Basic";
 				PRODUCT_NAME = "$(TARGET_NAME)";

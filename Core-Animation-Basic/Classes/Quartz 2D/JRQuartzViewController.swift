@@ -14,22 +14,40 @@ class JRQuartzViewController: JRBaseViewController {
         super.viewDidLoad()
 
 		title = "Quartz"
+		setupUI()
+	}
+}
+
+// MARK: - 初始化UI
+extension JRQuartzViewController {
+	
+	func setupUI() {
+		
+		let tableView = JRTableView(frame: view.bounds, style: .plain)
+		tableView.dataList = ["Graphics Contexts", "Two", "Three", "Four"]
+		view.addSubview(tableView)
+		
+		weak var weakSelf = self
+		tableView.didSelectionAction = { (tableView, IndexPath) -> () in
+			weakSelf?.tableViewDidSelected(tableView: tableView, indexPath: IndexPath)
+		}
 	}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+	/// tableView 点击
+	///
+	/// - Parameters:
+	///   - tableView: tableView
+	///   - indexPath: indexPath
+	func tableViewDidSelected(tableView: UITableView, indexPath: IndexPath) {
+		print("======++")
+		
+		switch indexPath.row {
+			case 0:
+				let vc = JRContextsViewController()
+				navigationController?.pushViewController(vc, animated: true)
+			default:
+				break
+		}
+	}
+	
 }
