@@ -22,6 +22,8 @@
 		3458DBA91E973F80004C1E38 /* JRContextsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBA81E973F80004C1E38 /* JRContextsViewController.swift */; };
 		3458DBAB1E9741D8004C1E38 /* NormalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBAA1E9741D8004C1E38 /* NormalView.swift */; };
 		3458DBAD1E9755CE004C1E38 /* BitMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBAC1E9755CE004C1E38 /* BitMapView.swift */; };
+		3458DBB01E978A78004C1E38 /* JRPathsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBAF1E978A78004C1E38 /* JRPathsViewController.swift */; };
+		3458DBB21E979140004C1E38 /* CreatPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBB11E979140004C1E38 /* CreatPaths.swift */; };
 		34B54E531E94C11E00BDE1E0 /* LayerContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B54E521E94C11E00BDE1E0 /* LayerContentViewController.swift */; };
 		34B54E571E94DF0400BDE1E0 /* MyLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B54E561E94DF0400BDE1E0 /* MyLayer.swift */; };
 /* End PBXBuildFile section */
@@ -65,6 +67,8 @@
 		3458DBA81E973F80004C1E38 /* JRContextsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRContextsViewController.swift; sourceTree = "<group>"; };
 		3458DBAA1E9741D8004C1E38 /* NormalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalView.swift; sourceTree = "<group>"; };
 		3458DBAC1E9755CE004C1E38 /* BitMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitMapView.swift; sourceTree = "<group>"; };
+		3458DBAF1E978A78004C1E38 /* JRPathsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRPathsViewController.swift; sourceTree = "<group>"; };
+		3458DBB11E979140004C1E38 /* CreatPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatPaths.swift; sourceTree = "<group>"; };
 		34B54E521E94C11E00BDE1E0 /* LayerContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerContentViewController.swift; sourceTree = "<group>"; };
 		34B54E561E94DF0400BDE1E0 /* MyLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,6 +208,7 @@
 			children = (
 				3458DBA41E972C92004C1E38 /* JRQuartzViewController.swift */,
 				3458DBA71E973F63004C1E38 /* ContextsController */,
+				3458DBAE1E978A65004C1E38 /* PathsController */,
 			);
 			path = "Quartz 2D";
 			sourceTree = "<group>";
@@ -216,6 +221,15 @@
 				3458DBAC1E9755CE004C1E38 /* BitMapView.swift */,
 			);
 			path = ContextsController;
+			sourceTree = "<group>";
+		};
+		3458DBAE1E978A65004C1E38 /* PathsController */ = {
+			isa = PBXGroup;
+			children = (
+				3458DBAF1E978A78004C1E38 /* JRPathsViewController.swift */,
+				3458DBB11E979140004C1E38 /* CreatPaths.swift */,
+			);
+			path = PathsController;
 			sourceTree = "<group>";
 		};
 		34B54E511E94C0E700BDE1E0 /* Providing a Layer’s Contents */ = {
@@ -370,7 +384,9 @@
 				3009A42D1E939E6C006B8C7B /* JRDemoViewController.swift in Sources */,
 				3009A42F1E939E75006B8C7B /* JRPractiseViewController.swift in Sources */,
 				34B54E531E94C11E00BDE1E0 /* LayerContentViewController.swift in Sources */,
+				3458DBB21E979140004C1E38 /* CreatPaths.swift in Sources */,
 				3009A4311E939F14006B8C7B /* JRBaseViewController.swift in Sources */,
+				3458DBB01E978A78004C1E38 /* JRPathsViewController.swift in Sources */,
 				34B54E571E94DF0400BDE1E0 /* MyLayer.swift in Sources */,
 				3009A4371E93E5A7006B8C7B /* JRLayerViewController.swift in Sources */,
 				3009A4341E93A242006B8C7B /* JRTableView.swift in Sources */,

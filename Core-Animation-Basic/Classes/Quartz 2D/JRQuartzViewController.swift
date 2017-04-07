@@ -40,13 +40,25 @@ extension JRQuartzViewController {
 	///   - indexPath: indexPath
 	func tableViewDidSelected(tableView: UITableView, indexPath: IndexPath) {
 
+		var vc: JRBaseViewController?
+		
 		switch indexPath.row {
 			case 0:
-				let vc = JRContextsViewController()
-				navigationController?.pushViewController(vc, animated: true)
+				vc = JRContextsViewController()
+			case 1:
+				vc = JRPathsViewController()
 			default:
 				break
 		}
+		
+		guard
+			let viewC:JRBaseViewController = vc
+		else {
+			return
+		}
+		
+		viewC.hidesBottomBarWhenPushed = true
+		navigationController?.pushViewController(viewC, animated: true)
 	}
 	
 }
