@@ -31,63 +31,46 @@ class CreatPaths: UIView {
 			return
 		}
 		
-		///
+//		addLine
 		ctx.move(to: CGPoint(x: 20, y: 20))
-		ctx.addLine(to: CGPoint(x: 20, y: rect.size.height - 20))
-		ctx.setFillColor(UIColor.red.cgColor)
+		ctx.addLine(to: CGPoint(x: 20, y: 120))
+		ctx.setStrokeColor(UIColor.red.cgColor)
+		ctx.strokePath()
+
+//		setStrokeColor
+		let points: [CGPoint] = [CGPoint(x: 40, y: 20),
+		                         CGPoint(x: 80, y: 20),
+		                         CGPoint(x: 80, y: 60),
+		                         CGPoint(x: 40, y: 60),
+		                         CGPoint(x: 40, y: 20),]
+		ctx.addLines(between: points)
+		ctx.setStrokeColor(UIColor.blue.cgColor)
+		ctx.strokePath()
+
+//		addRect
+		ctx.addRect(CGRect(x: 40, y: 80, width: 40, height: 40))
+		ctx.setStrokeColor(UIColor.orange.cgColor)
 		ctx.strokePath()
 		
-		/// 
-		ctx.move(to: CGPoint(x: 40, y: 20))
+//		add​Rects
+		let rects: [CGRect] = [CGRect(x: 100, y: 20, width: 100, height: 100),
+		                       CGRect(x: 110, y: 30, width: 80, height: 80),
+		                       CGRect(x: 120, y: 40, width: 60, height: 60),
+		                       CGRect(x: 130, y: 50, width: 40, height: 40),
+		                       CGRect(x: 140, y: 60, width: 20, height: 20),]
+		ctx.addRects(rects)
+		ctx.setStrokeColor(UIColor.black.cgColor)
+		ctx.strokePath()
 		
+//		addEllipse
+		ctx.addEllipse(in: CGRect(x: 220, y: 20, width: 100, height: 100))
+		ctx.addEllipse(in: CGRect(x: 220, y: 40, width: 100, height: 60))
+		ctx.addEllipse(in: CGRect(x: 240, y: 40, width: 60, height: 60))
+		ctx.addEllipse(in: CGRect(x: 240, y: 60, width: 60, height: 20))
+		ctx.addEllipse(in: CGRect(x: 260, y: 60, width: 20, height: 20))
+		ctx.setStrokeColor(UIColor.red.cgColor)
+		ctx.strokePath()
 		
 	}
 }
 
-/*
-extension CGContext {
-
-	public func setLineDash(phase: CGFloat, lengths: [CGFloat])
-
-	public func move(to point: CGPoint)
-
-	public func addLine(to point: CGPoint)
-
-	public func addCurve(to end: CGPoint, control1: CGPoint, control2: CGPoint)
-
-	public func addQuadCurve(to end: CGPoint, control: CGPoint)
-
-	public func addRects(_ rects: [CGRect])
-
-	public func addLines(between points: [CGPoint])
-
-	public func addArc(center: CGPoint, radius: CGFloat, startAngle: CGFloat, endAngle: CGFloat, clockwise: Bool)
-
-	public func addArc(tangent1End: CGPoint, tangent2End: CGPoint, radius: CGFloat)
-
-	/// Fills the current path using the specified rule (winding by default).
-	///
-	/// Any open subpath is implicitly closed.
-	public func fillPath(using rule: CGPathFillRule = default)
-
-	/// Intersects the current path with the current clipping region and uses the
-	/// result as the new clipping region for subsequent drawing.
-	///
-	/// Uses the specified fill rule (winding by default) to determine which
-	/// areas to treat as the interior of the clipping region. When evaluating
-	/// the path, any open subpath is implicitly closed.
-	public func clip(using rule: CGPathFillRule = default)
-
-	public func fill(_ rects: [CGRect])
-
-	public func strokeLineSegments(between points: [CGPoint])
-
-	public func clip(to rects: [CGRect])
-
-	public func draw(_ image: CGImage, in rect: CGRect, byTiling: Bool = default)
-
-	public var textPosition: CGPoint
-
-	public func showGlyphs(_ glyphs: [CGGlyph], at positions: [CGPoint])
-}
-*/

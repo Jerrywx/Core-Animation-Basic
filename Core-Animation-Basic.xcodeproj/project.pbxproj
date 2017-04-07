@@ -18,6 +18,7 @@
 		3009A4311E939F14006B8C7B /* JRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4301E939F14006B8C7B /* JRBaseViewController.swift */; };
 		3009A4341E93A242006B8C7B /* JRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4331E93A242006B8C7B /* JRTableView.swift */; };
 		3009A4371E93E5A7006B8C7B /* JRLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4361E93E5A7006B8C7B /* JRLayerViewController.swift */; };
+		305BCD9E1E97DAB000814B21 /* JRArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305BCD9D1E97DAB000814B21 /* JRArcView.swift */; };
 		3458DBA51E972C92004C1E38 /* JRQuartzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBA41E972C92004C1E38 /* JRQuartzViewController.swift */; };
 		3458DBA91E973F80004C1E38 /* JRContextsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBA81E973F80004C1E38 /* JRContextsViewController.swift */; };
 		3458DBAB1E9741D8004C1E38 /* NormalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBAA1E9741D8004C1E38 /* NormalView.swift */; };
@@ -63,6 +64,7 @@
 		3009A4301E939F14006B8C7B /* JRBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRBaseViewController.swift; sourceTree = "<group>"; };
 		3009A4331E93A242006B8C7B /* JRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRTableView.swift; sourceTree = "<group>"; };
 		3009A4361E93E5A7006B8C7B /* JRLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRLayerViewController.swift; sourceTree = "<group>"; };
+		305BCD9D1E97DAB000814B21 /* JRArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRArcView.swift; sourceTree = "<group>"; };
 		3458DBA41E972C92004C1E38 /* JRQuartzViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRQuartzViewController.swift; sourceTree = "<group>"; };
 		3458DBA81E973F80004C1E38 /* JRContextsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRContextsViewController.swift; sourceTree = "<group>"; };
 		3458DBAA1E9741D8004C1E38 /* NormalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalView.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 			children = (
 				3458DBAF1E978A78004C1E38 /* JRPathsViewController.swift */,
 				3458DBB11E979140004C1E38 /* CreatPaths.swift */,
+				305BCD9D1E97DAB000814B21 /* JRArcView.swift */,
 			);
 			path = PathsController;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				3458DBAD1E9755CE004C1E38 /* BitMapView.swift in Sources */,
 				3458DBA51E972C92004C1E38 /* JRQuartzViewController.swift in Sources */,
 				3009A42D1E939E6C006B8C7B /* JRDemoViewController.swift in Sources */,
+				305BCD9E1E97DAB000814B21 /* JRArcView.swift in Sources */,
 				3009A42F1E939E75006B8C7B /* JRPractiseViewController.swift in Sources */,
 				34B54E531E94C11E00BDE1E0 /* LayerContentViewController.swift in Sources */,
 				3458DBB21E979140004C1E38 /* CreatPaths.swift in Sources */,
