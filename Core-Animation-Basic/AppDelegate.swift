@@ -17,12 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		
 		let demoNav = UINavigationController(rootViewController: JRDemoViewController())
 		let practise = UINavigationController(rootViewController: JRPractiseViewController())
+		let quartz = UINavigationController(rootViewController: JRQuartzViewController())
 		
 		demoNav.title = "Demo"
 		practise.title = "Pract"
+		quartz.title = "Quartz"
 		
 		let tabVC = UITabBarController()
-		tabVC.viewControllers = [practise, demoNav]
+		tabVC.viewControllers = [practise, demoNav, quartz]
 		
 		window = UIWindow(frame: UIScreen.main.bounds)
 		window?.rootViewController = tabVC
