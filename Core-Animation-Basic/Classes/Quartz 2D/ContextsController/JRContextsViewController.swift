@@ -12,7 +12,7 @@ class JRContextsViewController: JRBaseViewController {
 
 	var normalView: NormalView?
 	var imgView: UIImageView?
-	let width = UIScreen.main.bounds.size.width - 40
+	let width = UIScreen.main.bounds.size.width - 60
 	
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,55 +27,29 @@ extension JRContextsViewController {
 	
 	func setupUI() {
 		
+		let w = width * 0.5
+		
 		title = "Graphics Contexts"
 		
-		normalView = NormalView(frame: CGRect(x: 20, y: 80, width: width, height: width * 0.5))
+		normalView = NormalView(frame: CGRect(x: 20, y: 80, width: w, height: w))
 		normalView?.backgroundColor = UIColor.gray.withAlphaComponent(0.5)
 		view.addSubview(normalView!)
 		
 		
 		
-		let myBitmapContext = createBitmp(width: Int(width), height: Int(width * 0.5))
+		let myBitmapContext = createBitmp(width: Int(w), height: Int(w))
 		// ********** Your drawing code here ********** // 4
 		myBitmapContext.setFillColor(UIColor.red.cgColor)
-		myBitmapContext.fill(CGRect(x: 0, y: 0, width: 200, height: 100))
+		myBitmapContext.fill(CGRect(x: 0, y: 0, width: w, height: w * 0.5))
 		myBitmapContext.setFillColor(red: 0, green: 0, blue: 0.5, alpha: 0.5)
-		myBitmapContext.fill(CGRect(x: 0, y: 0, width: 100, height: 200))
+		myBitmapContext.fill(CGRect(x: 0, y: 0, width: w * 0.5, height: w))
 		
 		let myImage = myBitmapContext.makeImage()
-		imgView = UIImageView(frame: CGRect(x: 20, y: (normalView?.frame.maxY)! + 20, width: width, height: width * 0.5))
+		imgView = UIImageView(frame: CGRect(x: (normalView?.frame.maxX)! + 20, y: 80, width: w, height: w))
 		imgView?.image = UIImage(cgImage: myImage!)
 		view.addSubview(imgView!)
 	}
-	
-	/// <#Description#>
-	///
-	/// - Parameters:
-	///   - pixelsWide: <#pixelsWide description#>
-	///   - pixelsHigh: <#pixelsHigh description#>
-	/// - Returns: <#return value description#>
-	func createBitmpContext(pixelsWide: Int, pixelsHigh: Int) -> CGContext? {
-	
-		var context: CGContext?
-		var colorSpace: CGColorSpace
-//		void *          bitmapData;
-		var bitmapByteCount: Int
-		var bitmapBytesPerRow: Int
-	 
-		bitmapBytesPerRow   = (pixelsWide * 4); // 1
-		bitmapByteCount     = (bitmapBytesPerRow * pixelsHigh);
-		colorSpace = CGColorSpaceCreateDeviceRGB()
-		let bitmapData = malloc(bitmapByteCount)
-		context = CGContext(data: bitmapData,
-		                    width: pixelsWide, 
-		                    height: pixelsHigh, 
-		                    bitsPerComponent: 8, 
-		                    bytesPerRow: bitmapBytesPerRow, 
-		                    space: colorSpace,
-		                    bitmapInfo: CGImageAlphaInfo.first.rawValue | CGBitmapInfo.byteOrder32Little.rawValue)
-		return context;// 7
-	}
-	
+
 	/// 创建 bitmap 上下文
 	///
 	/// - Parameters:
@@ -90,7 +64,7 @@ extension JRContextsViewController {
 		let bitsPerCompontent = 8
 		let bytesPerRow = bytesPerPixel * width
 		
-		let bitmapInfo = CGBitmapInfo(rawValue: CGBitmapInfo.byteOrder32Little.rawValue | CGImageAlphaInfo.premultipliedFirst.rawValue)
+		let bitmapInfo = CGBitmapInfo(rawValue: CGBitmapInfo.byteOrder32Little.rawValue | CGImageAlphaInfo.noneSkipLast.rawValue)
 		
 		let contex : CGContext = CGContext(data: rawData, width: width, height: height, bitsPerComponent: bitsPerCompontent, bytesPerRow: bytesPerRow, space: colorSpace, bitmapInfo: bitmapInfo.rawValue)!
 		

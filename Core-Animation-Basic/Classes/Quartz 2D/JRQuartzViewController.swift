@@ -24,7 +24,7 @@ extension JRQuartzViewController {
 	func setupUI() {
 		
 		let tableView = JRTableView(frame: view.bounds, style: .plain)
-		tableView.dataList = ["Graphics Contexts", "Two", "Three", "Four"]
+		tableView.dataList = ["Graphics Contexts", "Paths", "Three", "Four"]
 		view.addSubview(tableView)
 		
 		weak var weakSelf = self
@@ -39,8 +39,7 @@ extension JRQuartzViewController {
 	///   - tableView: tableView
 	///   - indexPath: indexPath
 	func tableViewDidSelected(tableView: UITableView, indexPath: IndexPath) {
-		print("======++")
-		
+
 		switch indexPath.row {
 			case 0:
 				let vc = JRContextsViewController()

@@ -14,14 +14,15 @@ class NormalView: UIView {
     // An empty implementation adversely affects performance during animation.
     override func draw(_ rect: CGRect) {
 		
+		let w = rect.size.width
 		/// 获取上下文
 		let myContext = UIGraphicsGetCurrentContext()
 		
 		// ********** Your drawing code here **********					// 2
 		myContext?.setFillColor(red: 1, green: 0, blue: 0, alpha: 1)
-		myContext?.fill(CGRect(x: 0, y: 0, width: 200, height: 100))
+		myContext?.fill(CGRect(x: 0, y: 0, width: w, height: w * 0.5))
 		myContext?.setFillColor(red: 0, green: 0, blue: 0.5, alpha: 0.5)
-		myContext?.fill(CGRect(x: 0, y: 0, width: 100, height: 200))
+		myContext?.fill(CGRect(x: 0, y: 0, width: w * 0.5, height: w))
     }
 
 }
