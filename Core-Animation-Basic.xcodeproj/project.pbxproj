@@ -19,6 +19,7 @@
 		3009A4341E93A242006B8C7B /* JRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4331E93A242006B8C7B /* JRTableView.swift */; };
 		3009A4371E93E5A7006B8C7B /* JRLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4361E93E5A7006B8C7B /* JRLayerViewController.swift */; };
 		305BCD9E1E97DAB000814B21 /* JRArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305BCD9D1E97DAB000814B21 /* JRArcView.swift */; };
+		345531691E9885E0003C7B08 /* ContextsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345531681E9885E0003C7B08 /* ContextsView.swift */; };
 		3458DBA51E972C92004C1E38 /* JRQuartzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBA41E972C92004C1E38 /* JRQuartzViewController.swift */; };
 		3458DBA91E973F80004C1E38 /* JRContextsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBA81E973F80004C1E38 /* JRContextsViewController.swift */; };
 		3458DBAB1E9741D8004C1E38 /* NormalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBAA1E9741D8004C1E38 /* NormalView.swift */; };
@@ -65,6 +66,7 @@
 		3009A4331E93A242006B8C7B /* JRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRTableView.swift; sourceTree = "<group>"; };
 		3009A4361E93E5A7006B8C7B /* JRLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRLayerViewController.swift; sourceTree = "<group>"; };
 		305BCD9D1E97DAB000814B21 /* JRArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRArcView.swift; sourceTree = "<group>"; };
+		345531681E9885E0003C7B08 /* ContextsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextsView.swift; sourceTree = "<group>"; };
 		3458DBA41E972C92004C1E38 /* JRQuartzViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRQuartzViewController.swift; sourceTree = "<group>"; };
 		3458DBA81E973F80004C1E38 /* JRContextsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRContextsViewController.swift; sourceTree = "<group>"; };
 		3458DBAA1E9741D8004C1E38 /* NormalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalView.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 				3458DBA81E973F80004C1E38 /* JRContextsViewController.swift */,
 				3458DBAA1E9741D8004C1E38 /* NormalView.swift */,
 				3458DBAC1E9755CE004C1E38 /* BitMapView.swift */,
+				345531681E9885E0003C7B08 /* ContextsView.swift */,
 			);
 			path = ContextsController;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345531691E9885E0003C7B08 /* ContextsView.swift in Sources */,
 				3458DBAB1E9741D8004C1E38 /* NormalView.swift in Sources */,
 				3458DBA91E973F80004C1E38 /* JRContextsViewController.swift in Sources */,
 				3009A3FB1E93999B006B8C7B /* AppDelegate.swift in Sources */,
