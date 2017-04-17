@@ -18,7 +18,6 @@
 		3009A4311E939F14006B8C7B /* JRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4301E939F14006B8C7B /* JRBaseViewController.swift */; };
 		3009A4341E93A242006B8C7B /* JRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4331E93A242006B8C7B /* JRTableView.swift */; };
 		3009A4371E93E5A7006B8C7B /* JRLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009A4361E93E5A7006B8C7B /* JRLayerViewController.swift */; };
-		305BCD9E1E97DAB000814B21 /* JRArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305BCD9D1E97DAB000814B21 /* JRArcView.swift */; };
 		345531691E9885E0003C7B08 /* ContextsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345531681E9885E0003C7B08 /* ContextsView.swift */; };
 		3455316C1E98B8AD003C7B08 /* JRTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3455316B1E98B8AD003C7B08 /* JRTextViewController.swift */; };
 		3455316E1E98B9D6003C7B08 /* JRTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3455316D1E98B9D6003C7B08 /* JRTextView.swift */; };
@@ -27,7 +26,11 @@
 		3458DBAB1E9741D8004C1E38 /* NormalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBAA1E9741D8004C1E38 /* NormalView.swift */; };
 		3458DBAD1E9755CE004C1E38 /* BitMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBAC1E9755CE004C1E38 /* BitMapView.swift */; };
 		3458DBB01E978A78004C1E38 /* JRPathsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBAF1E978A78004C1E38 /* JRPathsViewController.swift */; };
-		3458DBB21E979140004C1E38 /* CreatPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458DBB11E979140004C1E38 /* CreatPaths.swift */; };
+		3472CE1E1EA45E5D00659CCE /* CreatPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472CE1B1EA45E5D00659CCE /* CreatPaths.swift */; };
+		3472CE1F1EA45E5D00659CCE /* JRArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472CE1C1EA45E5D00659CCE /* JRArcView.swift */; };
+		3472CE211EA4634300659CCE /* JRTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472CE201EA4634300659CCE /* JRTableViewCell.swift */; };
+		3472CE231EA466EF00659CCE /* CreateLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472CE221EA466EF00659CCE /* CreateLineView.swift */; };
+		3472CE251EA490C000659CCE /* BlendModesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472CE241EA490C000659CCE /* BlendModesView.swift */; };
 		34B54E531E94C11E00BDE1E0 /* LayerContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B54E521E94C11E00BDE1E0 /* LayerContentViewController.swift */; };
 		34B54E571E94DF0400BDE1E0 /* MyLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B54E561E94DF0400BDE1E0 /* MyLayer.swift */; };
 		6F331EFBD78BAEF6D98CBD88 /* Pods_Core_Animation_BasicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2296FDD5C6DED2331C763591 /* Pods_Core_Animation_BasicTests.framework */; };
@@ -72,7 +75,6 @@
 		3009A4301E939F14006B8C7B /* JRBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRBaseViewController.swift; sourceTree = "<group>"; };
 		3009A4331E93A242006B8C7B /* JRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRTableView.swift; sourceTree = "<group>"; };
 		3009A4361E93E5A7006B8C7B /* JRLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRLayerViewController.swift; sourceTree = "<group>"; };
-		305BCD9D1E97DAB000814B21 /* JRArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRArcView.swift; sourceTree = "<group>"; };
 		31939244A117EE4E8FAD9B0D /* Pods-Core-Animation-BasicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core-Animation-BasicUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Core-Animation-BasicUITests/Pods-Core-Animation-BasicUITests.release.xcconfig"; sourceTree = "<group>"; };
 		345531681E9885E0003C7B08 /* ContextsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextsView.swift; sourceTree = "<group>"; };
 		3455316B1E98B8AD003C7B08 /* JRTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRTextViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +84,11 @@
 		3458DBAA1E9741D8004C1E38 /* NormalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalView.swift; sourceTree = "<group>"; };
 		3458DBAC1E9755CE004C1E38 /* BitMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitMapView.swift; sourceTree = "<group>"; };
 		3458DBAF1E978A78004C1E38 /* JRPathsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRPathsViewController.swift; sourceTree = "<group>"; };
-		3458DBB11E979140004C1E38 /* CreatPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatPaths.swift; sourceTree = "<group>"; };
+		3472CE1B1EA45E5D00659CCE /* CreatPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatPaths.swift; sourceTree = "<group>"; };
+		3472CE1C1EA45E5D00659CCE /* JRArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRArcView.swift; sourceTree = "<group>"; };
+		3472CE201EA4634300659CCE /* JRTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRTableViewCell.swift; sourceTree = "<group>"; };
+		3472CE221EA466EF00659CCE /* CreateLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateLineView.swift; sourceTree = "<group>"; };
+		3472CE241EA490C000659CCE /* BlendModesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlendModesView.swift; sourceTree = "<group>"; };
 		34B54E521E94C11E00BDE1E0 /* LayerContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerContentViewController.swift; sourceTree = "<group>"; };
 		34B54E561E94DF0400BDE1E0 /* MyLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLayer.swift; sourceTree = "<group>"; };
 		793A28F6CAACC78640B4803E /* Pods-Core-Animation-Basic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core-Animation-Basic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Core-Animation-Basic/Pods-Core-Animation-Basic.debug.xcconfig"; sourceTree = "<group>"; };
@@ -273,10 +279,29 @@
 			isa = PBXGroup;
 			children = (
 				3458DBAF1E978A78004C1E38 /* JRPathsViewController.swift */,
-				3458DBB11E979140004C1E38 /* CreatPaths.swift */,
-				305BCD9D1E97DAB000814B21 /* JRArcView.swift */,
+				3472CE1A1EA45E5D00659CCE /* PathDemoView */,
+				3472CE1D1EA45E5D00659CCE /* PathTestDemo */,
 			);
 			path = PathsController;
+			sourceTree = "<group>";
+		};
+		3472CE1A1EA45E5D00659CCE /* PathDemoView */ = {
+			isa = PBXGroup;
+			children = (
+				3472CE1B1EA45E5D00659CCE /* CreatPaths.swift */,
+				3472CE1C1EA45E5D00659CCE /* JRArcView.swift */,
+				3472CE201EA4634300659CCE /* JRTableViewCell.swift */,
+			);
+			path = PathDemoView;
+			sourceTree = "<group>";
+		};
+		3472CE1D1EA45E5D00659CCE /* PathTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3472CE221EA466EF00659CCE /* CreateLineView.swift */,
+				3472CE241EA490C000659CCE /* BlendModesView.swift */,
+			);
+			path = PathTestDemo;
 			sourceTree = "<group>";
 		};
 		34B54E511E94C0E700BDE1E0 /* Providing a Layer’s Contents */ = {
@@ -584,22 +609,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				345531691E9885E0003C7B08 /* ContextsView.swift in Sources */,
+				3472CE251EA490C000659CCE /* BlendModesView.swift in Sources */,
 				3458DBAB1E9741D8004C1E38 /* NormalView.swift in Sources */,
 				3458DBA91E973F80004C1E38 /* JRContextsViewController.swift in Sources */,
+				3472CE1E1EA45E5D00659CCE /* CreatPaths.swift in Sources */,
 				3009A3FB1E93999B006B8C7B /* AppDelegate.swift in Sources */,
 				3458DBAD1E9755CE004C1E38 /* BitMapView.swift in Sources */,
 				3458DBA51E972C92004C1E38 /* JRQuartzViewController.swift in Sources */,
 				3009A42D1E939E6C006B8C7B /* JRDemoViewController.swift in Sources */,
 				3455316E1E98B9D6003C7B08 /* JRTextView.swift in Sources */,
-				305BCD9E1E97DAB000814B21 /* JRArcView.swift in Sources */,
 				3009A42F1E939E75006B8C7B /* JRPractiseViewController.swift in Sources */,
 				34B54E531E94C11E00BDE1E0 /* LayerContentViewController.swift in Sources */,
 				3455316C1E98B8AD003C7B08 /* JRTextViewController.swift in Sources */,
-				3458DBB21E979140004C1E38 /* CreatPaths.swift in Sources */,
+				3472CE211EA4634300659CCE /* JRTableViewCell.swift in Sources */,
 				3009A4311E939F14006B8C7B /* JRBaseViewController.swift in Sources */,
 				3458DBB01E978A78004C1E38 /* JRPathsViewController.swift in Sources */,
 				34B54E571E94DF0400BDE1E0 /* MyLayer.swift in Sources */,
+				3472CE1F1EA45E5D00659CCE /* JRArcView.swift in Sources */,
 				3009A4371E93E5A7006B8C7B /* JRLayerViewController.swift in Sources */,
+				3472CE231EA466EF00659CCE /* CreateLineView.swift in Sources */,
 				3009A4341E93A242006B8C7B /* JRTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
